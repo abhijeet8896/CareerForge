@@ -1,0 +1,44 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# Data validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Database
+sqlalchemy==2.0.30
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP
+httpx==0.27.0
+requests==2.32.2
+
+# LangChain / LangGraph
+langchain==0.2.1
+langchain-ollama==0.1.3
+langchain-community==0.2.1
+langgraph==0.1.1
+
+# AI — local via Ollama (no OpenAI key needed)
+ollama==0.2.1
+
+# File parsing
+pypdf2==3.0.1
+python-docx==1.1.2
+
+# GitHub
+PyGithub==2.3.0
+
+# Utilities
+python-dotenv==1.0.1
+
+bcrypt==4.0.1
+passlib==1.7.4
